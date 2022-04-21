@@ -3,31 +3,60 @@
 }
 
 .main .header .nav-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-color: #A70E1A;
+  height: 30px;
 }
 
 .main .header .nav-menu .menuitems {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+  display: flex;
   list-style: none;
+}
+
+.main .header .nav-menu .menuitems :hover {
+  text-decoration: none;
+}
+
+.main .header .nav-menu .menuitems li a {
+  color: #fff;
+  padding: 0px 5px;
 }
 
 .main .header .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-left: 100px;
+}
+
+.main .header .container-fluid .arrow-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
 }
 
 .main .header .container-fluid .arrow-header .arrow {
   color: #ffff;
+}
+
+.main .header .container-fluid .arrow-header .arrow i {
+  border: 1px solid #fff;
+  margin: 0px 8px;
+  border-radius: 10px;
+}
+
+.main .body .container .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=layout.css.map */

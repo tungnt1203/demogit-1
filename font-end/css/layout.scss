@@ -3,27 +3,67 @@
         background-color: #f0a52b;
 
         .nav-menu {
-            display:flex;
-            justify-content:center; 
-            .menuitems{
-                display: flex;  
+
+            background-color: #A70E1A;
+            height: 30px;
+
+            .menuitems  {
+                display: flex;
+                align-items: center;
+                margin-left: 100px;
+                display: flex;
                 list-style: none;
-                
-                i{
-                    
+                :hover{
+                    text-decoration: none;
                 }
+                li {
+                    a {
+                        color: #fff;
+                        padding: 0px 5px;
+                    }
+                }
+
+
+                i {}
             }
+            
+        }
+
+        .row {
+            .col-md-12 {}
         }
 
         .container-fluid {
             display: flex;
-            justify-content: center;
+            margin-left: 100px;
+
+            .logo-header {}
 
             .arrow-header {
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+
                 .arrow {
+                    i {
+                        border: 1px solid #fff;
+                        margin: 0px 8px;
+                        border-radius: 10px;
+                    }
+
                     color: #ffff;
 
                 }
+            }
+        }
+    }
+
+    .body {
+        .container {
+            .row {
+                margin-top: 10px;
+                margin-bottom: 10px;
+
             }
         }
     }
